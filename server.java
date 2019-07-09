@@ -20,7 +20,6 @@ public class server {
                     request = new String(request+"index.html");
                 request = new String(System.getProperty("user.dir")+"\\htdocs"+request);
                 request = new String(request.replace("/","\\"));
-                System.out.println(request);
                 FileReader file = new FileReader(request);
                 String resp = "";
                 int i;   
